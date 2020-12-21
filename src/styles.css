@@ -1,0 +1,29 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+* {
+  box-sizing: border-box;
+  color: black;
+}
+
+body {
+  background-color: darkviolet;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+button {
+  color: black;
+}
+button:hover:not(.active) {
+  color: darkmagenta;
+}
+
+.active {
+  color: darkviolet;
+}
+
+li:hover {
+  background-color: whitesmoke;
+}
